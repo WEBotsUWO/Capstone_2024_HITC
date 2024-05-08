@@ -1,0 +1,24 @@
+[1.929s] Invoking command in '/home/chris/capstone/hitc_ws/src/state_publisher_py': PYTHONPATH=/home/chris/capstone/hitc_ws/build/state_publisher_py/prefix_override:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/state_publisher_py build --build-base /home/chris/capstone/hitc_ws/build/state_publisher_py/build install --record /home/chris/capstone/hitc_ws/build/state_publisher_py/install.log --single-version-externally-managed install_data
+[2.210s] running egg_info
+[2.211s] writing ../../build/state_publisher_py/state_publisher_py.egg-info/PKG-INFO
+[2.211s] writing dependency_links to ../../build/state_publisher_py/state_publisher_py.egg-info/dependency_links.txt
+[2.211s] writing entry points to ../../build/state_publisher_py/state_publisher_py.egg-info/entry_points.txt
+[2.211s] writing requirements to ../../build/state_publisher_py/state_publisher_py.egg-info/requires.txt
+[2.211s] writing top-level names to ../../build/state_publisher_py/state_publisher_py.egg-info/top_level.txt
+[2.214s] reading manifest file '../../build/state_publisher_py/state_publisher_py.egg-info/SOURCES.txt'
+[2.215s] writing manifest file '../../build/state_publisher_py/state_publisher_py.egg-info/SOURCES.txt'
+[2.215s] running build
+[2.215s] running build_py
+[2.215s] copying state_publisher_py/state_publisher.py -> /home/chris/capstone/hitc_ws/build/state_publisher_py/build/lib/state_publisher_py
+[2.215s] running install
+[2.216s] running install_lib
+[2.216s] copying /home/chris/capstone/hitc_ws/build/state_publisher_py/build/lib/state_publisher_py/state_publisher.py -> /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages/state_publisher_py
+[2.217s] byte-compiling /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages/state_publisher_py/state_publisher.py to state_publisher.cpython-310.pyc
+[2.219s] running install_data
+[2.219s] running install_egg_info
+[2.220s] removing '/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages/state_publisher_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.221s] Copying ../../build/state_publisher_py/state_publisher_py.egg-info to /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages/state_publisher_py-0.0.0-py3.10.egg-info
+[2.222s] running install_scripts
+[2.243s] Installing state_publisher script to /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/state_publisher_py
+[2.243s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/state_publisher_py/install.log'
+[2.273s] Invoked command in '/home/chris/capstone/hitc_ws/src/state_publisher_py' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/state_publisher_py/prefix_override:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/state_publisher_py build --build-base /home/chris/capstone/hitc_ws/build/state_publisher_py/build install --record /home/chris/capstone/hitc_ws/build/state_publisher_py/install.log --single-version-externally-managed install_data

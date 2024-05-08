@@ -1,0 +1,34 @@
+[1.214s] Invoking command in '/home/chris/capstone/hitc_ws/build/hitc_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake --build /home/chris/capstone/hitc_ws/build/hitc_robot_description -- -j12 -l12
+[2.818s] Invoked command in '/home/chris/capstone/hitc_ws/build/hitc_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake --build /home/chris/capstone/hitc_ws/build/hitc_robot_description -- -j12 -l12
+[2.850s] Invoking command in '/home/chris/capstone/hitc_ws/build/hitc_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake --install /home/chris/capstone/hitc_ws/build/hitc_robot_description
+[2.858s] -- Install configuration: ""
+[2.858s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//config
+[2.859s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//config/joint_names_hitc_robot_description.yaml
+[2.859s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//launch
+[2.859s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//launch/gazebo.launch
+[2.859s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//launch/display.launch
+[2.859s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes
+[2.859s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/link1.STL
+[2.859s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/end_effector.STL
+[2.860s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/link2.STL
+[2.860s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/base_link.STL
+[2.860s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//urdf
+[2.860s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//urdf/hitc_robot_description.csv
+[2.860s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//urdf/hitc_robot_description.urdf
+[2.860s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//textures
+[2.860s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/ament_index/resource_index/package_run_dependencies/hitc_robot_description
+[2.860s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/ament_index/resource_index/parent_prefix_path/hitc_robot_description
+[2.860s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/ament_prefix_path.sh
+[2.861s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/ament_prefix_path.dsv
+[2.861s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/path.sh
+[2.861s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/path.dsv
+[2.861s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.bash
+[2.861s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.sh
+[2.862s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.zsh
+[2.862s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.dsv
+[2.862s] -- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/package.dsv
+[2.863s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/ament_index/resource_index/packages/hitc_robot_description
+[2.863s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/cmake/hitc_robot_descriptionConfig.cmake
+[2.863s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/cmake/hitc_robot_descriptionConfig-version.cmake
+[2.864s] -- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/package.xml
+[2.864s] Invoked command in '/home/chris/capstone/hitc_ws/build/hitc_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble /usr/bin/cmake --install /home/chris/capstone/hitc_ws/build/hitc_robot_description

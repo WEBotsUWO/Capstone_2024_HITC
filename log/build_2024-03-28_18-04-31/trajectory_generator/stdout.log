@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/trajectory_generator/trajectory_generator.egg-info
+writing ../../build/trajectory_generator/trajectory_generator.egg-info/PKG-INFO
+writing dependency_links to ../../build/trajectory_generator/trajectory_generator.egg-info/dependency_links.txt
+writing entry points to ../../build/trajectory_generator/trajectory_generator.egg-info/entry_points.txt
+writing requirements to ../../build/trajectory_generator/trajectory_generator.egg-info/requires.txt
+writing top-level names to ../../build/trajectory_generator/trajectory_generator.egg-info/top_level.txt
+writing manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'
+reading manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'
+writing manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/chris/capstone/hitc_ws/build/trajectory_generator/build
+creating /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib
+creating /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+copying trajectory_generator/treeNode.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+copying trajectory_generator/__init__.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+copying trajectory_generator/RRTAlgorithm.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+copying trajectory_generator/student_trajectory_algorithm.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+copying trajectory_generator/trajectory_generator.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+copying trajectory_generator/obstacleExtractor.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+running install
+running install_lib
+creating /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/treeNode.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/__init__.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/RRTAlgorithm.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/student_trajectory_algorithm.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/trajectory_generator.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/obstacleExtractor.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/treeNode.py to treeNode.cpython-310.pyc
+byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/RRTAlgorithm.py to RRTAlgorithm.cpython-310.pyc
+byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/student_trajectory_algorithm.py to student_trajectory_algorithm.cpython-310.pyc
+byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/trajectory_generator.py to trajectory_generator.cpython-310.pyc
+byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/obstacleExtractor.py to obstacleExtractor.cpython-310.pyc
+running install_data
+creating /home/chris/capstone/hitc_ws/install/trajectory_generator/share/ament_index
+creating /home/chris/capstone/hitc_ws/install/trajectory_generator/share/ament_index/resource_index
+creating /home/chris/capstone/hitc_ws/install/trajectory_generator/share/ament_index/resource_index/packages
+copying resource/trajectory_generator -> /home/chris/capstone/hitc_ws/install/trajectory_generator/share/ament_index/resource_index/packages
+copying package.xml -> /home/chris/capstone/hitc_ws/install/trajectory_generator/share/trajectory_generator
+running install_egg_info
+Copying ../../build/trajectory_generator/trajectory_generator.egg-info to /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing trajectory_generator script to /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/trajectory_generator
+writing list of installed files to '/home/chris/capstone/hitc_ws/build/trajectory_generator/install.log'

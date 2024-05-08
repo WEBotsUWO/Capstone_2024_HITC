@@ -1,0 +1,49 @@
+[2.802s] Invoking command in '/home/chris/capstone/hitc_ws/src/trajectory_generator': PYTHONPATH=/home/chris/capstone/hitc_ws/build/trajectory_generator/prefix_override:/home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trajectory_generator build --build-base /home/chris/capstone/hitc_ws/build/trajectory_generator/build install --record /home/chris/capstone/hitc_ws/build/trajectory_generator/install.log --single-version-externally-managed
+[3.082s] running egg_info
+[3.082s] creating ../../build/trajectory_generator/trajectory_generator.egg-info
+[3.083s] writing ../../build/trajectory_generator/trajectory_generator.egg-info/PKG-INFO
+[3.084s] writing dependency_links to ../../build/trajectory_generator/trajectory_generator.egg-info/dependency_links.txt
+[3.084s] writing entry points to ../../build/trajectory_generator/trajectory_generator.egg-info/entry_points.txt
+[3.084s] writing requirements to ../../build/trajectory_generator/trajectory_generator.egg-info/requires.txt
+[3.084s] writing top-level names to ../../build/trajectory_generator/trajectory_generator.egg-info/top_level.txt
+[3.085s] writing manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'
+[3.088s] reading manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'
+[3.090s] writing manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'
+[3.090s] running build
+[3.090s] running build_py
+[3.090s] creating /home/chris/capstone/hitc_ws/build/trajectory_generator/build
+[3.090s] creating /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib
+[3.091s] creating /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+[3.091s] copying trajectory_generator/treeNode.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+[3.091s] copying trajectory_generator/__init__.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+[3.091s] copying trajectory_generator/RRTAlgorithm.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+[3.091s] copying trajectory_generator/student_trajectory_algorithm.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+[3.091s] copying trajectory_generator/trajectory_generator.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+[3.092s] copying trajectory_generator/obstacleExtractor.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+[3.092s] running install
+[3.093s] running install_lib
+[3.093s] creating /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+[3.093s] copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/treeNode.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+[3.093s] copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/__init__.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+[3.093s] copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/RRTAlgorithm.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+[3.094s] copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/student_trajectory_algorithm.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+[3.094s] copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/trajectory_generator.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+[3.094s] copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/obstacleExtractor.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+[3.094s] byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/treeNode.py to treeNode.cpython-310.pyc
+[3.094s] byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/__init__.py to __init__.cpython-310.pyc
+[3.094s] byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/RRTAlgorithm.py to RRTAlgorithm.cpython-310.pyc
+[3.095s] byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/student_trajectory_algorithm.py to student_trajectory_algorithm.cpython-310.pyc
+[3.096s] byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/trajectory_generator.py to trajectory_generator.cpython-310.pyc
+[3.097s] byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/obstacleExtractor.py to obstacleExtractor.cpython-310.pyc
+[3.097s] running install_data
+[3.098s] creating /home/chris/capstone/hitc_ws/install/trajectory_generator/share/ament_index
+[3.098s] creating /home/chris/capstone/hitc_ws/install/trajectory_generator/share/ament_index/resource_index
+[3.099s] creating /home/chris/capstone/hitc_ws/install/trajectory_generator/share/ament_index/resource_index/packages
+[3.099s] copying resource/trajectory_generator -> /home/chris/capstone/hitc_ws/install/trajectory_generator/share/ament_index/resource_index/packages
+[3.099s] copying package.xml -> /home/chris/capstone/hitc_ws/install/trajectory_generator/share/trajectory_generator
+[3.099s] running install_egg_info
+[3.100s] Copying ../../build/trajectory_generator/trajectory_generator.egg-info to /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator-0.0.0-py3.10.egg-info
+[3.102s] running install_scripts
+[3.124s] Installing trajectory_generator script to /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/trajectory_generator
+[3.124s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/trajectory_generator/install.log'
+[3.335s] Invoked command in '/home/chris/capstone/hitc_ws/src/trajectory_generator' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/trajectory_generator/prefix_override:/home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trajectory_generator build --build-base /home/chris/capstone/hitc_ws/build/trajectory_generator/build install --record /home/chris/capstone/hitc_ws/build/trajectory_generator/install.log --single-version-externally-managed

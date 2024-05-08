@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages",
+        "/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages",
+        "/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages",
+        "/home/chris/capstone/hitc_ws/install/image_processing/lib/python3.10/site-packages",
+        "/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages",
+        "/home/chris/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages",
+        "/home/chris/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/chris/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/chris/hitc_ws/install/test_motors_py/lib/python3.10/site-packages",
+        "/home/chris/hitc_ws/install/camera_py/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/chris/capstone/hitc_ws/install/testing_motors/lib/python3.10/site-packages",
+        "/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages",
+        "/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages",
+        "/home/chris/capstone/hitc_ws/install/image_processing/lib/python3.10/site-packages",
+        "/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages",
+        "/home/chris/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages",
+        "/home/chris/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/chris/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/chris/hitc_ws/install/test_motors_py/lib/python3.10/site-packages",
+        "/home/chris/hitc_ws/install/camera_py/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

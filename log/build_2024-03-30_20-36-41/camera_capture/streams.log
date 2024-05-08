@@ -1,0 +1,24 @@
+[2.009s] Invoking command in '/home/chris/capstone/hitc_ws/src/camera_capture': PYTHONPATH=/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_capture build --build-base /home/chris/capstone/hitc_ws/build/camera_capture/build install --record /home/chris/capstone/hitc_ws/build/camera_capture/install.log --single-version-externally-managed install_data
+[2.298s] running egg_info
+[2.299s] writing ../../build/camera_capture/camera_capture.egg-info/PKG-INFO
+[2.299s] writing dependency_links to ../../build/camera_capture/camera_capture.egg-info/dependency_links.txt
+[2.299s] writing entry points to ../../build/camera_capture/camera_capture.egg-info/entry_points.txt
+[2.299s] writing requirements to ../../build/camera_capture/camera_capture.egg-info/requires.txt
+[2.300s] writing top-level names to ../../build/camera_capture/camera_capture.egg-info/top_level.txt
+[2.302s] reading manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'
+[2.304s] writing manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'
+[2.304s] running build
+[2.304s] running build_py
+[2.304s] running install
+[2.305s] running install_lib
+[2.306s] running install_data
+[2.306s] running install_egg_info
+[2.308s] removing '/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info' (and everything under it)
+[2.308s] Copying ../../build/camera_capture/camera_capture.egg-info to /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info
+[2.309s] running install_scripts
+[2.329s] Installing camera_capture script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[2.329s] Installing image_proccessing script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[2.329s] Installing motor_controller script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[2.330s] Installing safety_system script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[2.330s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/camera_capture/install.log'
+[2.365s] Invoked command in '/home/chris/capstone/hitc_ws/src/camera_capture' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_capture build --build-base /home/chris/capstone/hitc_ws/build/camera_capture/build install --record /home/chris/capstone/hitc_ws/build/camera_capture/install.log --single-version-externally-managed install_data

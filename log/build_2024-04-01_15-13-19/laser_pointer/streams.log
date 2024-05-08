@@ -1,0 +1,23 @@
+[1.923s] Invoking command in '/home/chris/capstone/hitc_ws/src/laser_pointer': PYTHONPATH=/home/chris/capstone/hitc_ws/build/laser_pointer/prefix_override:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laser_pointer build --build-base /home/chris/capstone/hitc_ws/build/laser_pointer/build install --record /home/chris/capstone/hitc_ws/build/laser_pointer/install.log --single-version-externally-managed install_data
+[2.203s] running egg_info
+[2.204s] writing ../../build/laser_pointer/laser_pointer.egg-info/PKG-INFO
+[2.204s] writing dependency_links to ../../build/laser_pointer/laser_pointer.egg-info/dependency_links.txt
+[2.204s] writing entry points to ../../build/laser_pointer/laser_pointer.egg-info/entry_points.txt
+[2.205s] writing requirements to ../../build/laser_pointer/laser_pointer.egg-info/requires.txt
+[2.205s] writing top-level names to ../../build/laser_pointer/laser_pointer.egg-info/top_level.txt
+[2.206s] reading manifest file '../../build/laser_pointer/laser_pointer.egg-info/SOURCES.txt'
+[2.207s] writing manifest file '../../build/laser_pointer/laser_pointer.egg-info/SOURCES.txt'
+[2.207s] running build
+[2.208s] running build_py
+[2.208s] running install
+[2.208s] running install_lib
+[2.210s] running install_data
+[2.210s] running install_egg_info
+[2.211s] removing '/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer-0.0.0-py3.10.egg-info' (and everything under it)
+[2.212s] Copying ../../build/laser_pointer/laser_pointer.egg-info to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer-0.0.0-py3.10.egg-info
+[2.212s] running install_scripts
+[2.233s] Installing laser_pointer script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer
+[2.233s] Installing position_publisher script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer
+[2.233s] Installing servo_position script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer
+[2.234s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/laser_pointer/install.log'
+[2.266s] Invoked command in '/home/chris/capstone/hitc_ws/src/laser_pointer' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/laser_pointer/prefix_override:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laser_pointer build --build-base /home/chris/capstone/hitc_ws/build/laser_pointer/build install --record /home/chris/capstone/hitc_ws/build/laser_pointer/install.log --single-version-externally-managed install_data

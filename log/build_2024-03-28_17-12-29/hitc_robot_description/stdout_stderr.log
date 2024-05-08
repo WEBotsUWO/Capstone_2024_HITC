@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chris/capstone/hitc_ws/build/hitc_robot_description
+-- Install configuration: ""
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//config
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//config/joint_names_hitc_robot_description.yaml
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//launch
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//launch/gazebo.launch
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//launch/display.launch
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/link1.STL
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/end_effector.STL
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/link2.STL
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/base_link.STL
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//urdf
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//urdf/hitc_robot_description.csv
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//urdf/hitc_robot_description.urdf
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//textures
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/ament_index/resource_index/package_run_dependencies/hitc_robot_description
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/ament_index/resource_index/parent_prefix_path/hitc_robot_description
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/ament_prefix_path.sh
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/path.sh
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/path.dsv
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.bash
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.sh
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.zsh
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.dsv
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/package.dsv
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/ament_index/resource_index/packages/hitc_robot_description
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/cmake/hitc_robot_descriptionConfig.cmake
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/cmake/hitc_robot_descriptionConfig-version.cmake
+-- Installing: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/package.xml

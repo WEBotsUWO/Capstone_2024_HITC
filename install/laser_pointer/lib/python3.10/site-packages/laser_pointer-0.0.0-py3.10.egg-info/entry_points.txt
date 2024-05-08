@@ -1,0 +1,5 @@
+[console_scripts]
+laser_pointer = laser_pointer.laser_end_effector:main
+position_publisher = laser_pointer.position_publisher:main
+servo_position = laser_pointer.servo_position:main
+

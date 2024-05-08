@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot
+  name="hitc_robot_description">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.401377631632734 -5.42647926593531E-10 -0.0374917413193446"
+        rpy="0 0 0" />
+      <mass
+        value="4.99823696772836" />
+      <inertia
+        ixx="0.0169614503869467"
+        ixy="1.82208119440503E-12"
+        ixz="0.00916365672383926"
+        iyy="0.0927621254573851"
+        iyz="-5.38015033963661E-13"
+        izz="0.0980634664778845" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitc_robot_description/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitc_robot_description/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link1">
+    <inertial>
+      <origin
+        xyz="0.127457003524061 -1.66929969847018E-09 -0.000990640181740554"
+        rpy="0 0 0" />
+      <mass
+        value="1.72026761826256" />
+      <inertia
+        ixx="0.00177938157163666"
+        ixy="-9.4060960083813E-12"
+        ixz="-2.49254869471981E-05"
+        iyy="0.00317233580151515"
+        iyz="-1.4014510001681E-12"
+        izz="0.00368233924319515" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitc_robot_description/meshes/link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitc_robot_description/meshes/link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_L1"
+    type="continuous">
+    <origin
+      xyz="0.12 0 0"
+      rpy="0 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="link1" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="link2">
+    <inertial>
+      <origin
+        xyz="0.158530574013467 -8.8272111842258E-11 -0.000944098416044925"
+        rpy="0 0 0" />
+      <mass
+        value="1.8050728626833" />
+      <inertia
+        ixx="0.00178995617439375"
+        ixy="-1.0988672006776E-11"
+        ixz="-2.49254872137544E-05"
+        iyy="0.00368804540569939"
+        iyz="-8.57094406206046E-13"
+        izz="0.00415400281586314" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitc_robot_description/meshes/link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitc_robot_description/meshes/link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="L1-L2"
+    type="continuous">
+    <origin
+      xyz="0.35 0 0"
+      rpy="0 0 1.5708" />
+    <parent
+      link="link1" />
+    <child
+      link="link2" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="end_effector">
+    <inertial>
+      <origin
+        xyz="1.11022302462516E-16 1.38777878078145E-16 -0.0149999999999987"
+        rpy="0 0 0" />
+      <mass
+        value="0.00358860280590412" />
+      <inertia
+        ixx="7.64546352100259E-07"
+        ixy="-1.83961764179075E-23"
+        ixz="-3.78162657713518E-23"
+        iyy="7.71890352100259E-07"
+        iyz="1.48263814265779E-21"
+        izz="4.11855350738015E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitc_robot_description/meshes/end_effector.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitc_robot_description/meshes/end_effector.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="L2-EE"
+    type="continuous">
+    <origin
+      xyz="0.45 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="link2" />
+    <child
+      link="end_effector" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+</robot>

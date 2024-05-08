@@ -1,0 +1,970 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (camera_capture) JobQueued: {'identifier': 'camera_capture', 'dependencies': OrderedDict()}
+[0.000123] (hitc_robot_description) JobQueued: {'identifier': 'hitc_robot_description', 'dependencies': OrderedDict()}
+[0.000143] (laser_pointer) JobQueued: {'identifier': 'laser_pointer', 'dependencies': OrderedDict()}
+[0.000159] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict()}
+[0.000174] (path_planner) JobQueued: {'identifier': 'path_planner', 'dependencies': OrderedDict()}
+[0.000191] (state_publisher_py) JobQueued: {'identifier': 'state_publisher_py', 'dependencies': OrderedDict()}
+[0.000207] (trajectory_generator) JobQueued: {'identifier': 'trajectory_generator', 'dependencies': OrderedDict()}
+[0.000221] (camera_capture) JobStarted: {'identifier': 'camera_capture'}
+[0.099645] (-) TimerEvent: {}
+[0.171817] (hitc_robot_description) JobStarted: {'identifier': 'hitc_robot_description'}
+[0.199992] (-) TimerEvent: {}
+[0.300215] (-) TimerEvent: {}
+[0.302614] (laser_pointer) JobStarted: {'identifier': 'laser_pointer'}
+[0.400325] (-) TimerEvent: {}
+[0.453034] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.500440] (-) TimerEvent: {}
+[0.578394] (path_planner) JobStarted: {'identifier': 'path_planner'}
+[0.600570] (-) TimerEvent: {}
+[0.700805] (-) TimerEvent: {}
+[0.722975] (state_publisher_py) JobStarted: {'identifier': 'state_publisher_py'}
+[0.800985] (-) TimerEvent: {}
+[0.877627] (trajectory_generator) JobStarted: {'identifier': 'trajectory_generator'}
+[0.901107] (-) TimerEvent: {}
+[1.001703] (-) TimerEvent: {}
+[1.102141] (-) TimerEvent: {}
+[1.202430] (-) TimerEvent: {}
+[1.302702] (-) TimerEvent: {}
+[1.403152] (-) TimerEvent: {}
+[1.436324] (hitc_robot_description) JobProgress: {'identifier': 'hitc_robot_description', 'progress': 'cmake'}
+[1.443705] (hitc_robot_description) JobProgress: {'identifier': 'hitc_robot_description', 'progress': 'build'}
+[1.444344] (hitc_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chris/capstone/hitc_ws/build/hitc_robot_description', '--', '-j12', '-l12'], 'cwd': '/home/chris/capstone/hitc_ws/build/hitc_robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'chris'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros2_ws/install/my_robot_interfaces/lib:/home/chris/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1619'), ('SYSTEMD_EXEC_PID', '1786'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4287'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/second_ros2_ws/install:/home/chris/capstone/hitc_ws/install:/home/chris/hitc_ws/install:/home/chris/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('JOURNAL_STREAM', '8:34969'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chris'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chris-ubuntu:@/tmp/.ICE-unix/1755,unix/chris-ubuntu:/tmp/.ICE-unix/1755'), ('INVOCATION_ID', '912aff55d52e4a7b9a335e7b489e0345'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F52HL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99f10b04-d8e7-4f89-8112-5c8f734947f9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chris/capstone/hitc_ws/build/hitc_robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/chris/second_ros2_ws/build/urdf_tutorial_r2d2:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/test_motors_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/camera_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble')]), 'shell': False}
+[1.503281] (-) TimerEvent: {}
+[1.603536] (-) TimerEvent: {}
+[1.703773] (-) TimerEvent: {}
+[1.804095] (-) TimerEvent: {}
+[1.870609] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[1.870898] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/chris/capstone/hitc_ws/src/micro-ROS-Agent/micro_ros_agent', '-DCMAKE_INSTALL_PREFIX=/home/chris/capstone/hitc_ws/install/micro_ros_agent'], 'cwd': '/home/chris/capstone/hitc_ws/build/micro_ros_agent', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'chris'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros2_ws/install/my_robot_interfaces/lib:/home/chris/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1619'), ('SYSTEMD_EXEC_PID', '1786'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4287'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/second_ros2_ws/install:/home/chris/capstone/hitc_ws/install:/home/chris/hitc_ws/install:/home/chris/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('JOURNAL_STREAM', '8:34969'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chris'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chris-ubuntu:@/tmp/.ICE-unix/1755,unix/chris-ubuntu:/tmp/.ICE-unix/1755'), ('INVOCATION_ID', '912aff55d52e4a7b9a335e7b489e0345'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F52HL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99f10b04-d8e7-4f89-8112-5c8f734947f9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chris/capstone/hitc_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/chris/second_ros2_ws/build/urdf_tutorial_r2d2:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/test_motors_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/camera_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble')]), 'shell': False}
+[1.904197] (-) TimerEvent: {}
+[2.004569] (-) TimerEvent: {}
+[2.104872] (-) TimerEvent: {}
+[2.205154] (-) TimerEvent: {}
+[2.305464] (-) TimerEvent: {}
+[2.405770] (-) TimerEvent: {}
+[2.506091] (-) TimerEvent: {}
+[2.606415] (-) TimerEvent: {}
+[2.706742] (-) TimerEvent: {}
+[2.714689] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.715421] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.716496] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.716788] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.717331] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.717428] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.717524] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.717617] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.717708] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.717798] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.717880] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.717950] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.718002] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.718055] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[2.718107] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/chris/capstone/hitc_ws/build/micro_ros_agent\n'}
+[2.806865] (-) TimerEvent: {}
+[2.907141] (-) TimerEvent: {}
+[3.007453] (-) TimerEvent: {}
+[3.108330] (-) TimerEvent: {}
+[3.129269] (hitc_robot_description) CommandEnded: {'returncode': 0}
+[3.129752] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[3.130231] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[3.130440] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chris/capstone/hitc_ws/build/micro_ros_agent', '--', '-j12', '-l12'], 'cwd': '/home/chris/capstone/hitc_ws/build/micro_ros_agent', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'chris'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros2_ws/install/my_robot_interfaces/lib:/home/chris/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1619'), ('SYSTEMD_EXEC_PID', '1786'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4287'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/second_ros2_ws/install:/home/chris/capstone/hitc_ws/install:/home/chris/hitc_ws/install:/home/chris/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('JOURNAL_STREAM', '8:34969'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chris'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chris-ubuntu:@/tmp/.ICE-unix/1755,unix/chris-ubuntu:/tmp/.ICE-unix/1755'), ('INVOCATION_ID', '912aff55d52e4a7b9a335e7b489e0345'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F52HL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99f10b04-d8e7-4f89-8112-5c8f734947f9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chris/capstone/hitc_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/chris/second_ros2_ws/build/urdf_tutorial_r2d2:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/test_motors_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/camera_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble')]), 'shell': False}
+[3.151531] (hitc_robot_description) JobProgress: {'identifier': 'hitc_robot_description', 'progress': 'install'}
+[3.163606] (hitc_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chris/capstone/hitc_ws/build/hitc_robot_description'], 'cwd': '/home/chris/capstone/hitc_ws/build/hitc_robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'chris'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros2_ws/install/my_robot_interfaces/lib:/home/chris/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1619'), ('SYSTEMD_EXEC_PID', '1786'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4287'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/second_ros2_ws/install:/home/chris/capstone/hitc_ws/install:/home/chris/hitc_ws/install:/home/chris/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('JOURNAL_STREAM', '8:34969'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chris'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chris-ubuntu:@/tmp/.ICE-unix/1755,unix/chris-ubuntu:/tmp/.ICE-unix/1755'), ('INVOCATION_ID', '912aff55d52e4a7b9a335e7b489e0345'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F52HL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99f10b04-d8e7-4f89-8112-5c8f734947f9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chris/capstone/hitc_ws/build/hitc_robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/chris/second_ros2_ws/build/urdf_tutorial_r2d2:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/test_motors_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/camera_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble')]), 'shell': False}
+[3.175216] (hitc_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.175482] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//config\n'}
+[3.175643] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//config/joint_names_hitc_robot_description.yaml\n'}
+[3.175806] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//launch\n'}
+[3.175956] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//launch/gazebo.launch\n'}
+[3.176106] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//launch/display.launch\n'}
+[3.176222] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes\n'}
+[3.176387] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/link1.STL\n'}
+[3.176479] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/end_effector.STL\n'}
+[3.176569] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/link2.STL\n'}
+[3.176720] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//meshes/base_link.STL\n'}
+[3.176826] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//urdf\n'}
+[3.176949] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//urdf/hitc_robot_description.csv\n'}
+[3.177046] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//urdf/hitc_robot_description.urdf\n'}
+[3.177241] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description//textures\n'}
+[3.177417] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/ament_index/resource_index/package_run_dependencies/hitc_robot_description\n'}
+[3.177573] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/ament_index/resource_index/parent_prefix_path/hitc_robot_description\n'}
+[3.177701] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/ament_prefix_path.sh\n'}
+[3.177794] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/ament_prefix_path.dsv\n'}
+[3.177931] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/path.sh\n'}
+[3.178064] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/environment/path.dsv\n'}
+[3.178215] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.bash\n'}
+[3.178316] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.sh\n'}
+[3.178419] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.zsh\n'}
+[3.178508] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/local_setup.dsv\n'}
+[3.178595] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/package.dsv\n'}
+[3.178693] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/ament_index/resource_index/packages/hitc_robot_description\n'}
+[3.178796] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/cmake/hitc_robot_descriptionConfig.cmake\n'}
+[3.178891] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/cmake/hitc_robot_descriptionConfig-version.cmake\n'}
+[3.178979] (hitc_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/chris/capstone/hitc_ws/install/hitc_robot_description/share/hitc_robot_description/package.xml\n'}
+[3.180159] (hitc_robot_description) CommandEnded: {'returncode': 0}
+[3.180973] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[3.208590] (-) TimerEvent: {}
+[3.254342] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[3.275495] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[3.308675] (-) TimerEvent: {}
+[3.403656] (hitc_robot_description) JobEnded: {'identifier': 'hitc_robot_description', 'rc': 0}
+[3.408763] (-) TimerEvent: {}
+[3.509004] (-) TimerEvent: {}
+[3.609286] (-) TimerEvent: {}
+[3.667399] (state_publisher_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/state_publisher_py', 'build', '--build-base', '/home/chris/capstone/hitc_ws/build/state_publisher_py/build', 'install', '--record', '/home/chris/capstone/hitc_ws/build/state_publisher_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/chris/capstone/hitc_ws/src/state_publisher_py', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'chris', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chris/ros2_ws/install/my_robot_interfaces/lib:/home/chris/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chris', 'OLDPWD': '/home/chris', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1619', 'SYSTEMD_EXEC_PID': '1786', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4287', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chris/second_ros2_ws/install:/home/chris/capstone/hitc_ws/install:/home/chris/hitc_ws/install:/home/chris/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chris', 'JOURNAL_STREAM': '8:34969', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/chris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chris-ubuntu:@/tmp/.ICE-unix/1755,unix/chris-ubuntu:/tmp/.ICE-unix/1755', 'INVOCATION_ID': '912aff55d52e4a7b9a335e7b489e0345', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F52HL2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:99f10b04-d8e7-4f89-8112-5c8f734947f9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chris/capstone/hitc_ws/build/state_publisher_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chris/capstone/hitc_ws/build/state_publisher_py/prefix_override:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:/home/chris/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/chris/second_ros2_ws/build/urdf_tutorial_r2d2:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/test_motors_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/camera_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/capstone/hitc_ws/install/hitc_robot_description'}, 'shell': False}
+[3.670506] (path_planner) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/path_planner', 'build', '--build-base', '/home/chris/capstone/hitc_ws/build/path_planner/build', 'install', '--record', '/home/chris/capstone/hitc_ws/build/path_planner/install.log', '--single-version-externally-managed'], 'cwd': '/home/chris/capstone/hitc_ws/src/path_planner', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'chris', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chris/ros2_ws/install/my_robot_interfaces/lib:/home/chris/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chris', 'OLDPWD': '/home/chris', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1619', 'SYSTEMD_EXEC_PID': '1786', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4287', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chris/second_ros2_ws/install:/home/chris/capstone/hitc_ws/install:/home/chris/hitc_ws/install:/home/chris/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chris', 'JOURNAL_STREAM': '8:34969', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/chris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chris-ubuntu:@/tmp/.ICE-unix/1755,unix/chris-ubuntu:/tmp/.ICE-unix/1755', 'INVOCATION_ID': '912aff55d52e4a7b9a335e7b489e0345', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F52HL2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:99f10b04-d8e7-4f89-8112-5c8f734947f9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chris/capstone/hitc_ws/build/path_planner', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chris/capstone/hitc_ws/build/path_planner/prefix_override:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:/home/chris/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/chris/second_ros2_ws/build/urdf_tutorial_r2d2:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/test_motors_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/camera_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/capstone/hitc_ws/install/hitc_robot_description'}, 'shell': False}
+[3.672755] (laser_pointer) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/laser_pointer', 'build', '--build-base', '/home/chris/capstone/hitc_ws/build/laser_pointer/build', 'install', '--record', '/home/chris/capstone/hitc_ws/build/laser_pointer/install.log', '--single-version-externally-managed'], 'cwd': '/home/chris/capstone/hitc_ws/src/laser_pointer', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'chris', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chris/ros2_ws/install/my_robot_interfaces/lib:/home/chris/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chris', 'OLDPWD': '/home/chris', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1619', 'SYSTEMD_EXEC_PID': '1786', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4287', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chris/second_ros2_ws/install:/home/chris/capstone/hitc_ws/install:/home/chris/hitc_ws/install:/home/chris/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chris', 'JOURNAL_STREAM': '8:34969', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/chris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chris-ubuntu:@/tmp/.ICE-unix/1755,unix/chris-ubuntu:/tmp/.ICE-unix/1755', 'INVOCATION_ID': '912aff55d52e4a7b9a335e7b489e0345', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F52HL2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:99f10b04-d8e7-4f89-8112-5c8f734947f9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chris/capstone/hitc_ws/build/laser_pointer', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chris/capstone/hitc_ws/build/laser_pointer/prefix_override:/home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages:/home/chris/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/chris/second_ros2_ws/build/urdf_tutorial_r2d2:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/test_motors_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/camera_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/capstone/hitc_ws/install/hitc_robot_description'}, 'shell': False}
+[3.674874] (camera_capture) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_capture', 'build', '--build-base', '/home/chris/capstone/hitc_ws/build/camera_capture/build', 'install', '--record', '/home/chris/capstone/hitc_ws/build/camera_capture/install.log', '--single-version-externally-managed'], 'cwd': '/home/chris/capstone/hitc_ws/src/camera_capture', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'chris', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chris/ros2_ws/install/my_robot_interfaces/lib:/home/chris/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chris', 'OLDPWD': '/home/chris', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1619', 'SYSTEMD_EXEC_PID': '1786', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4287', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chris/second_ros2_ws/install:/home/chris/capstone/hitc_ws/install:/home/chris/hitc_ws/install:/home/chris/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chris', 'JOURNAL_STREAM': '8:34969', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/chris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chris-ubuntu:@/tmp/.ICE-unix/1755,unix/chris-ubuntu:/tmp/.ICE-unix/1755', 'INVOCATION_ID': '912aff55d52e4a7b9a335e7b489e0345', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F52HL2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:99f10b04-d8e7-4f89-8112-5c8f734947f9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chris/capstone/hitc_ws/build/camera_capture', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:/home/chris/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/chris/second_ros2_ws/build/urdf_tutorial_r2d2:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/test_motors_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/camera_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/capstone/hitc_ws/install/hitc_robot_description'}, 'shell': False}
+[3.678033] (trajectory_generator) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/trajectory_generator', 'build', '--build-base', '/home/chris/capstone/hitc_ws/build/trajectory_generator/build', 'install', '--record', '/home/chris/capstone/hitc_ws/build/trajectory_generator/install.log', '--single-version-externally-managed'], 'cwd': '/home/chris/capstone/hitc_ws/src/trajectory_generator', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'chris', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chris/ros2_ws/install/my_robot_interfaces/lib:/home/chris/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chris', 'OLDPWD': '/home/chris', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1619', 'SYSTEMD_EXEC_PID': '1786', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4287', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chris/second_ros2_ws/install:/home/chris/capstone/hitc_ws/install:/home/chris/hitc_ws/install:/home/chris/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chris', 'JOURNAL_STREAM': '8:34969', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chris', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/chris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chris-ubuntu:@/tmp/.ICE-unix/1755,unix/chris-ubuntu:/tmp/.ICE-unix/1755', 'INVOCATION_ID': '912aff55d52e4a7b9a335e7b489e0345', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F52HL2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:99f10b04-d8e7-4f89-8112-5c8f734947f9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chris/capstone/hitc_ws/build/trajectory_generator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chris/capstone/hitc_ws/build/trajectory_generator/prefix_override:/home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages:/home/chris/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/chris/second_ros2_ws/build/urdf_tutorial_r2d2:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/test_motors_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/camera_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/capstone/hitc_ws/install/hitc_robot_description'}, 'shell': False}
+[3.709375] (-) TimerEvent: {}
+[3.809686] (-) TimerEvent: {}
+[3.910020] (-) TimerEvent: {}
+[3.947148] (path_planner) StdoutLine: {'line': b'running egg_info\n'}
+[3.947592] (path_planner) StdoutLine: {'line': b'creating ../../build/path_planner/path_planner.egg-info\n'}
+[3.947762] (path_planner) StdoutLine: {'line': b'writing ../../build/path_planner/path_planner.egg-info/PKG-INFO\n'}
+[3.947934] (path_planner) StdoutLine: {'line': b'writing dependency_links to ../../build/path_planner/path_planner.egg-info/dependency_links.txt\n'}
+[3.948078] (path_planner) StdoutLine: {'line': b'writing entry points to ../../build/path_planner/path_planner.egg-info/entry_points.txt\n'}
+[3.948226] (path_planner) StdoutLine: {'line': b'writing requirements to ../../build/path_planner/path_planner.egg-info/requires.txt\n'}
+[3.948330] (path_planner) StdoutLine: {'line': b'writing top-level names to ../../build/path_planner/path_planner.egg-info/top_level.txt\n'}
+[3.948478] (path_planner) StdoutLine: {'line': b"writing manifest file '../../build/path_planner/path_planner.egg-info/SOURCES.txt'\n"}
+[3.949749] (laser_pointer) StdoutLine: {'line': b'running egg_info\n'}
+[3.949986] (path_planner) StdoutLine: {'line': b"reading manifest file '../../build/path_planner/path_planner.egg-info/SOURCES.txt'\n"}
+[3.950236] (laser_pointer) StdoutLine: {'line': b'creating ../../build/laser_pointer/laser_pointer.egg-info\n'}
+[3.950402] (laser_pointer) StdoutLine: {'line': b'writing ../../build/laser_pointer/laser_pointer.egg-info/PKG-INFO\n'}
+[3.950572] (laser_pointer) StdoutLine: {'line': b'writing dependency_links to ../../build/laser_pointer/laser_pointer.egg-info/dependency_links.txt\n'}
+[3.950703] (path_planner) StdoutLine: {'line': b"writing manifest file '../../build/path_planner/path_planner.egg-info/SOURCES.txt'\n"}
+[3.950910] (laser_pointer) StdoutLine: {'line': b'writing entry points to ../../build/laser_pointer/laser_pointer.egg-info/entry_points.txt\n'}
+[3.951096] (laser_pointer) StdoutLine: {'line': b'writing requirements to ../../build/laser_pointer/laser_pointer.egg-info/requires.txt\n'}
+[3.951225] (laser_pointer) StdoutLine: {'line': b'writing top-level names to ../../build/laser_pointer/laser_pointer.egg-info/top_level.txt\n'}
+[3.951350] (path_planner) StdoutLine: {'line': b'running build\n'}
+[3.951453] (path_planner) StdoutLine: {'line': b'running build_py\n'}
+[3.951553] (path_planner) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/path_planner/build\n'}
+[3.951655] (path_planner) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/path_planner/build/lib\n'}
+[3.951758] (path_planner) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner\n'}
+[3.951859] (laser_pointer) StdoutLine: {'line': b"writing manifest file '../../build/laser_pointer/laser_pointer.egg-info/SOURCES.txt'\n"}
+[3.951960] (path_planner) StdoutLine: {'line': b'copying path_planner/__init__.py -> /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner\n'}
+[3.952059] (path_planner) StdoutLine: {'line': b'copying path_planner/milestone_arm_only.py -> /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner\n'}
+[3.952460] (laser_pointer) StdoutLine: {'line': b"reading manifest file '../../build/laser_pointer/laser_pointer.egg-info/SOURCES.txt'\n"}
+[3.953118] (laser_pointer) StdoutLine: {'line': b"writing manifest file '../../build/laser_pointer/laser_pointer.egg-info/SOURCES.txt'\n"}
+[3.953307] (laser_pointer) StdoutLine: {'line': b'running build\n'}
+[3.953453] (laser_pointer) StdoutLine: {'line': b'running build_py\n'}
+[3.953561] (laser_pointer) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/laser_pointer/build\n'}
+[3.953665] (laser_pointer) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib\n'}
+[3.953774] (laser_pointer) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer\n'}
+[3.953890] (laser_pointer) StdoutLine: {'line': b'copying laser_pointer/laser_end_effector.py -> /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer\n'}
+[3.958860] (laser_pointer) StdoutLine: {'line': b'copying laser_pointer/__init__.py -> /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer\n'}
+[3.959103] (path_planner) StdoutLine: {'line': b'copying path_planner/test_arm_only.py -> /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner\n'}
+[3.959292] (laser_pointer) StdoutLine: {'line': b'copying laser_pointer/position_publisher.py -> /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer\n'}
+[3.959434] (trajectory_generator) StdoutLine: {'line': b'running egg_info\n'}
+[3.959564] (path_planner) StdoutLine: {'line': b'copying path_planner/cartesian_to_radians.py -> /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner\n'}
+[3.959672] (laser_pointer) StdoutLine: {'line': b'copying laser_pointer/servo_position.py -> /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer\n'}
+[3.959876] (state_publisher_py) StdoutLine: {'line': b'running egg_info\n'}
+[3.960041] (trajectory_generator) StdoutLine: {'line': b'creating ../../build/trajectory_generator/trajectory_generator.egg-info\n'}
+[3.960175] (laser_pointer) StdoutLine: {'line': b'running install\n'}
+[3.960341] (path_planner) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/modern_robotics\n'}
+[3.960534] (path_planner) StdoutLine: {'line': b'copying path_planner/modern_robotics/__init__.py -> /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/modern_robotics\n'}
+[3.960704] (path_planner) StdoutLine: {'line': b'copying path_planner/modern_robotics/__version__.py -> /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/modern_robotics\n'}
+[3.960844] (trajectory_generator) StdoutLine: {'line': b'writing ../../build/trajectory_generator/trajectory_generator.egg-info/PKG-INFO\n'}
+[3.960941] (path_planner) StdoutLine: {'line': b'copying path_planner/modern_robotics/app.py -> /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/modern_robotics\n'}
+[3.961045] (laser_pointer) StdoutLine: {'line': b'running install_lib\n'}
+[3.961237] (trajectory_generator) StdoutLine: {'line': b'writing dependency_links to ../../build/trajectory_generator/trajectory_generator.egg-info/dependency_links.txt\n'}
+[3.961428] (path_planner) StdoutLine: {'line': b'copying path_planner/modern_robotics/core.py -> /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/modern_robotics\n'}
+[3.961586] (state_publisher_py) StdoutLine: {'line': b'writing ../../build/state_publisher_py/state_publisher_py.egg-info/PKG-INFO\n'}
+[3.961744] (trajectory_generator) StdoutLine: {'line': b'writing entry points to ../../build/trajectory_generator/trajectory_generator.egg-info/entry_points.txt\n'}
+[3.961848] (trajectory_generator) StdoutLine: {'line': b'writing requirements to ../../build/trajectory_generator/trajectory_generator.egg-info/requires.txt\n'}
+[3.961955] (trajectory_generator) StdoutLine: {'line': b'writing top-level names to ../../build/trajectory_generator/trajectory_generator.egg-info/top_level.txt\n'}
+[3.962064] (state_publisher_py) StdoutLine: {'line': b'writing dependency_links to ../../build/state_publisher_py/state_publisher_py.egg-info/dependency_links.txt\n'}
+[3.962171] (state_publisher_py) StdoutLine: {'line': b'writing entry points to ../../build/state_publisher_py/state_publisher_py.egg-info/entry_points.txt\n'}
+[3.962289] (state_publisher_py) StdoutLine: {'line': b'writing requirements to ../../build/state_publisher_py/state_publisher_py.egg-info/requires.txt\n'}
+[3.962424] (trajectory_generator) StdoutLine: {'line': b"writing manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'\n"}
+[3.962526] (state_publisher_py) StdoutLine: {'line': b'writing top-level names to ../../build/state_publisher_py/state_publisher_py.egg-info/top_level.txt\n'}
+[3.962632] (laser_pointer) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer\n'}
+[3.962851] (laser_pointer) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer/laser_end_effector.py -> /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer\n'}
+[3.962997] (path_planner) StdoutLine: {'line': b'running install\n'}
+[3.963139] (laser_pointer) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer/__init__.py -> /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer\n'}
+[3.963330] (laser_pointer) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer/position_publisher.py -> /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer\n'}
+[3.963430] (laser_pointer) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/laser_pointer/build/lib/laser_pointer/servo_position.py -> /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer\n'}
+[3.963662] (path_planner) StdoutLine: {'line': b'running install_lib\n'}
+[3.963845] (laser_pointer) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer/laser_end_effector.py to laser_end_effector.cpython-310.pyc\n'}
+[3.963947] (laser_pointer) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer/__init__.py to __init__.cpython-310.pyc\n'}
+[3.964047] (path_planner) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner\n'}
+[3.964143] (path_planner) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/__init__.py -> /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner\n'}
+[3.964243] (laser_pointer) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer/position_publisher.py to position_publisher.cpython-310.pyc\n'}
+[3.964342] (path_planner) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/milestone_arm_only.py -> /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner\n'}
+[3.964474] (path_planner) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/test_arm_only.py -> /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner\n'}
+[3.964609] (path_planner) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics\n'}
+[3.964837] (state_publisher_py) StdoutLine: {'line': b"reading manifest file '../../build/state_publisher_py/state_publisher_py.egg-info/SOURCES.txt'\n"}
+[3.965016] (path_planner) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/modern_robotics/__init__.py -> /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics\n'}
+[3.965125] (path_planner) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/modern_robotics/__version__.py -> /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics\n'}
+[3.965254] (path_planner) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/modern_robotics/app.py -> /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics\n'}
+[3.965407] (laser_pointer) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer/servo_position.py to servo_position.cpython-310.pyc\n'}
+[3.965536] (path_planner) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/modern_robotics/core.py -> /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics\n'}
+[3.965671] (path_planner) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/path_planner/build/lib/path_planner/cartesian_to_radians.py -> /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner\n'}
+[3.965807] (laser_pointer) StdoutLine: {'line': b'running install_data\n'}
+[3.965980] (trajectory_generator) StdoutLine: {'line': b"reading manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'\n"}
+[3.966088] (path_planner) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/__init__.py to __init__.cpython-310.pyc\n'}
+[3.966211] (laser_pointer) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/laser_pointer/share/ament_index\n'}
+[3.966333] (laser_pointer) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/laser_pointer/share/ament_index/resource_index\n'}
+[3.966438] (laser_pointer) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/laser_pointer/share/ament_index/resource_index/packages\n'}
+[3.966576] (state_publisher_py) StdoutLine: {'line': b"writing manifest file '../../build/state_publisher_py/state_publisher_py.egg-info/SOURCES.txt'\n"}
+[3.966727] (state_publisher_py) StdoutLine: {'line': b'running build\n'}
+[3.966843] (state_publisher_py) StdoutLine: {'line': b'running build_py\n'}
+[3.966939] (laser_pointer) StdoutLine: {'line': b'copying resource/laser_pointer -> /home/chris/capstone/hitc_ws/install/laser_pointer/share/ament_index/resource_index/packages\n'}
+[3.967054] (path_planner) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/milestone_arm_only.py to milestone_arm_only.cpython-310.pyc\n'}
+[3.967177] (laser_pointer) StdoutLine: {'line': b'copying package.xml -> /home/chris/capstone/hitc_ws/install/laser_pointer/share/laser_pointer\n'}
+[3.967298] (trajectory_generator) StdoutLine: {'line': b"writing manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'\n"}
+[3.967525] (laser_pointer) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.967632] (trajectory_generator) StdoutLine: {'line': b'running build\n'}
+[3.967756] (trajectory_generator) StdoutLine: {'line': b'running build_py\n'}
+[3.967883] (trajectory_generator) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/trajectory_generator/build\n'}
+[3.967983] (trajectory_generator) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib\n'}
+[3.968113] (trajectory_generator) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator\n'}
+[3.968225] (trajectory_generator) StdoutLine: {'line': b'copying trajectory_generator/treeNode.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator\n'}
+[3.968315] (state_publisher_py) StdoutLine: {'line': b'running install\n'}
+[3.968437] (trajectory_generator) StdoutLine: {'line': b'copying trajectory_generator/__init__.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator\n'}
+[3.968546] (state_publisher_py) StdoutLine: {'line': b'running install_lib\n'}
+[3.968653] (trajectory_generator) StdoutLine: {'line': b'copying trajectory_generator/RRTAlgorithm.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator\n'}
+[3.968785] (trajectory_generator) StdoutLine: {'line': b'copying trajectory_generator/student_trajectory_algorithm.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator\n'}
+[3.968898] (path_planner) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/test_arm_only.py to test_arm_only.cpython-310.pyc\n'}
+[3.969010] (trajectory_generator) StdoutLine: {'line': b'copying trajectory_generator/trajectory_generator.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator\n'}
+[3.969120] (trajectory_generator) StdoutLine: {'line': b'copying trajectory_generator/obstacleExtractor.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator\n'}
+[3.969237] (path_planner) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics/__init__.py to __init__.cpython-310.pyc\n'}
+[3.969397] (path_planner) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics/__version__.py to __version__.cpython-310.pyc\n'}
+[3.969521] (laser_pointer) StdoutLine: {'line': b'Copying ../../build/laser_pointer/laser_pointer.egg-info to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/python3.10/site-packages/laser_pointer-0.0.0-py3.10.egg-info\n'}
+[3.969696] (path_planner) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics/app.py to app.cpython-310.pyc\n'}
+[3.969856] (trajectory_generator) StdoutLine: {'line': b'running install\n'}
+[3.970011] (state_publisher_py) StdoutLine: {'line': b'running install_data\n'}
+[3.970166] (laser_pointer) StdoutLine: {'line': b'running install_scripts\n'}
+[3.970279] (trajectory_generator) StdoutLine: {'line': b'running install_lib\n'}
+[3.970389] (path_planner) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/modern_robotics/core.py to core.cpython-310.pyc\n'}
+[3.970500] (state_publisher_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.970611] (trajectory_generator) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator\n'}
+[3.970713] (trajectory_generator) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/treeNode.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator\n'}
+[3.970820] (trajectory_generator) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/__init__.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator\n'}
+[3.970934] (trajectory_generator) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/RRTAlgorithm.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator\n'}
+[3.971138] (trajectory_generator) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/student_trajectory_algorithm.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator\n'}
+[3.971264] (trajectory_generator) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/trajectory_generator.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator\n'}
+[3.971467] (trajectory_generator) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/obstacleExtractor.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator\n'}
+[3.971624] (trajectory_generator) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/treeNode.py to treeNode.cpython-310.pyc\n'}
+[3.971731] (state_publisher_py) StdoutLine: {'line': b"removing '/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages/state_publisher_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.971858] (trajectory_generator) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/__init__.py to __init__.cpython-310.pyc\n'}
+[3.971970] (state_publisher_py) StdoutLine: {'line': b'Copying ../../build/state_publisher_py/state_publisher_py.egg-info to /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages/state_publisher_py-0.0.0-py3.10.egg-info\n'}
+[3.972088] (trajectory_generator) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/RRTAlgorithm.py to RRTAlgorithm.cpython-310.pyc\n'}
+[3.972525] (state_publisher_py) StdoutLine: {'line': b'running install_scripts\n'}
+[3.972908] (trajectory_generator) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/student_trajectory_algorithm.py to student_trajectory_algorithm.cpython-310.pyc\n'}
+[3.973646] (trajectory_generator) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/trajectory_generator.py to trajectory_generator.cpython-310.pyc\n'}
+[3.973842] (camera_capture) StdoutLine: {'line': b'running egg_info\n'}
+[3.974019] (path_planner) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner/cartesian_to_radians.py to cartesian_to_radians.cpython-310.pyc\n'}
+[3.974190] (trajectory_generator) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/obstacleExtractor.py to obstacleExtractor.cpython-310.pyc\n'}
+[3.974392] (camera_capture) StdoutLine: {'line': b'creating ../../build/camera_capture/camera_capture.egg-info\n'}
+[3.974583] (camera_capture) StdoutLine: {'line': b'writing ../../build/camera_capture/camera_capture.egg-info/PKG-INFO\n'}
+[3.974718] (trajectory_generator) StdoutLine: {'line': b'running install_data\n'}
+[3.974857] (path_planner) StdoutLine: {'line': b'running install_data\n'}
+[3.975019] (camera_capture) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_capture/camera_capture.egg-info/dependency_links.txt\n'}
+[3.975145] (camera_capture) StdoutLine: {'line': b'writing entry points to ../../build/camera_capture/camera_capture.egg-info/entry_points.txt\n'}
+[3.975288] (camera_capture) StdoutLine: {'line': b'writing requirements to ../../build/camera_capture/camera_capture.egg-info/requires.txt\n'}
+[3.975502] (camera_capture) StdoutLine: {'line': b'writing top-level names to ../../build/camera_capture/camera_capture.egg-info/top_level.txt\n'}
+[3.975611] (path_planner) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/path_planner/share/ament_index\n'}
+[3.975713] (path_planner) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/path_planner/share/ament_index/resource_index\n'}
+[3.975810] (path_planner) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/path_planner/share/ament_index/resource_index/packages\n'}
+[3.975904] (path_planner) StdoutLine: {'line': b'copying resource/path_planner -> /home/chris/capstone/hitc_ws/install/path_planner/share/ament_index/resource_index/packages\n'}
+[3.975999] (trajectory_generator) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/trajectory_generator/share/ament_index\n'}
+[3.976095] (trajectory_generator) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/trajectory_generator/share/ament_index/resource_index\n'}
+[3.976278] (trajectory_generator) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/trajectory_generator/share/ament_index/resource_index/packages\n'}
+[3.976400] (trajectory_generator) StdoutLine: {'line': b'copying resource/trajectory_generator -> /home/chris/capstone/hitc_ws/install/trajectory_generator/share/ament_index/resource_index/packages\n'}
+[3.976496] (trajectory_generator) StdoutLine: {'line': b'copying package.xml -> /home/chris/capstone/hitc_ws/install/trajectory_generator/share/trajectory_generator\n'}
+[3.976590] (trajectory_generator) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.976684] (camera_capture) StdoutLine: {'line': b"writing manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'\n"}
+[3.976779] (path_planner) StdoutLine: {'line': b'copying package.xml -> /home/chris/capstone/hitc_ws/install/path_planner/share/path_planner\n'}
+[3.976909] (path_planner) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.977692] (camera_capture) StdoutLine: {'line': b"reading manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'\n"}
+[3.977829] (path_planner) StdoutLine: {'line': b'Copying ../../build/path_planner/path_planner.egg-info to /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner-0.0.0-py3.10.egg-info\n'}
+[3.978033] (trajectory_generator) StdoutLine: {'line': b'Copying ../../build/trajectory_generator/trajectory_generator.egg-info to /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator-0.0.0-py3.10.egg-info\n'}
+[3.978469] (camera_capture) StdoutLine: {'line': b"writing manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'\n"}
+[3.978603] (camera_capture) StdoutLine: {'line': b'running build\n'}
+[3.978764] (camera_capture) StdoutLine: {'line': b'running build_py\n'}
+[3.978827] (camera_capture) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/camera_capture/build\n'}
+[3.978887] (camera_capture) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/camera_capture/build/lib\n'}
+[3.978946] (path_planner) StdoutLine: {'line': b'running install_scripts\n'}
+[3.979037] (camera_capture) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture\n'}
+[3.979144] (camera_capture) StdoutLine: {'line': b'copying camera_capture/__init__.py -> /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture\n'}
+[3.979206] (camera_capture) StdoutLine: {'line': b'copying camera_capture/motor_controller.py -> /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture\n'}
+[3.979265] (camera_capture) StdoutLine: {'line': b'copying camera_capture/safety_system.py -> /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture\n'}
+[3.979373] (trajectory_generator) StdoutLine: {'line': b'running install_scripts\n'}
+[3.979432] (camera_capture) StdoutLine: {'line': b'copying camera_capture/image_processing.py -> /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture\n'}
+[3.979734] (camera_capture) StdoutLine: {'line': b'copying camera_capture/camera_capture.py -> /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture\n'}
+[3.980158] (camera_capture) StdoutLine: {'line': b'running install\n'}
+[3.980439] (camera_capture) StdoutLine: {'line': b'running install_lib\n'}
+[3.981239] (camera_capture) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture\n'}
+[3.981497] (camera_capture) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture/__init__.py -> /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture\n'}
+[3.981714] (camera_capture) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture/motor_controller.py -> /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture\n'}
+[3.981780] (camera_capture) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture/safety_system.py -> /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture\n'}
+[3.981863] (camera_capture) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture/image_processing.py -> /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture\n'}
+[3.981926] (camera_capture) StdoutLine: {'line': b'copying /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture/camera_capture.py -> /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture\n'}
+[3.982139] (camera_capture) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/__init__.py to __init__.cpython-310.pyc\n'}
+[3.982327] (camera_capture) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/motor_controller.py to motor_controller.cpython-310.pyc\n'}
+[3.982690] (camera_capture) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/safety_system.py to safety_system.cpython-310.pyc\n'}
+[3.983023] (camera_capture) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/image_processing.py to image_processing.cpython-310.pyc\n'}
+[3.983422] (camera_capture) StdoutLine: {'line': b'byte-compiling /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/camera_capture.py to camera_capture.cpython-310.pyc\n'}
+[3.983699] (camera_capture) StdoutLine: {'line': b'running install_data\n'}
+[3.984240] (camera_capture) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index\n'}
+[3.984374] (camera_capture) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index/resource_index\n'}
+[3.984445] (camera_capture) StdoutLine: {'line': b'creating /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index/resource_index/packages\n'}
+[3.984506] (camera_capture) StdoutLine: {'line': b'copying resource/camera_capture -> /home/chris/capstone/hitc_ws/install/camera_capture/share/ament_index/resource_index/packages\n'}
+[3.984608] (camera_capture) StdoutLine: {'line': b'copying package.xml -> /home/chris/capstone/hitc_ws/install/camera_capture/share/camera_capture\n'}
+[3.984665] (camera_capture) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.986185] (camera_capture) StdoutLine: {'line': b'Copying ../../build/camera_capture/camera_capture.egg-info to /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info\n'}
+[3.986978] (camera_capture) StdoutLine: {'line': b'running install_scripts\n'}
+[3.993245] (laser_pointer) StdoutLine: {'line': b'Installing laser_pointer script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer\n'}
+[3.993522] (laser_pointer) StdoutLine: {'line': b'Installing position_publisher script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer\n'}
+[3.993611] (laser_pointer) StdoutLine: {'line': b'Installing servo_position script to /home/chris/capstone/hitc_ws/install/laser_pointer/lib/laser_pointer\n'}
+[3.993685] (state_publisher_py) StdoutLine: {'line': b'Installing state_publisher script to /home/chris/capstone/hitc_ws/install/state_publisher_py/lib/state_publisher_py\n'}
+[3.993781] (laser_pointer) StdoutLine: {'line': b"writing list of installed files to '/home/chris/capstone/hitc_ws/build/laser_pointer/install.log'\n"}
+[3.993959] (state_publisher_py) StdoutLine: {'line': b"writing list of installed files to '/home/chris/capstone/hitc_ws/build/state_publisher_py/install.log'\n"}
+[4.000741] (path_planner) StdoutLine: {'line': b"writing list of installed files to '/home/chris/capstone/hitc_ws/build/path_planner/install.log'\n"}
+[4.001430] (trajectory_generator) StdoutLine: {'line': b'Installing trajectory_generator script to /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/trajectory_generator\n'}
+[4.001885] (trajectory_generator) StdoutLine: {'line': b"writing list of installed files to '/home/chris/capstone/hitc_ws/build/trajectory_generator/install.log'\n"}
+[4.007508] (camera_capture) StdoutLine: {'line': b'Installing camera_capture script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture\n'}
+[4.007758] (camera_capture) StdoutLine: {'line': b'Installing image_proccessing script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture\n'}
+[4.007842] (camera_capture) StdoutLine: {'line': b'Installing motor_controller script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture\n'}
+[4.007986] (camera_capture) StdoutLine: {'line': b'Installing safety_system script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture\n'}
+[4.008267] (camera_capture) StdoutLine: {'line': b"writing list of installed files to '/home/chris/capstone/hitc_ws/build/camera_capture/install.log'\n"}
+[4.010111] (-) TimerEvent: {}
+[4.034309] (state_publisher_py) CommandEnded: {'returncode': 0}
+[4.097124] (state_publisher_py) JobEnded: {'identifier': 'state_publisher_py', 'rc': 0}
+[4.097649] (laser_pointer) CommandEnded: {'returncode': 0}
+[4.110413] (-) TimerEvent: {}
+[4.154651] (laser_pointer) JobEnded: {'identifier': 'laser_pointer', 'rc': 0}
+[4.156019] (path_planner) CommandEnded: {'returncode': 0}
+[4.210649] (-) TimerEvent: {}
+[4.212184] (path_planner) JobEnded: {'identifier': 'path_planner', 'rc': 0}
+[4.212680] (trajectory_generator) CommandEnded: {'returncode': 0}
+[4.268573] (trajectory_generator) JobEnded: {'identifier': 'trajectory_generator', 'rc': 0}
+[4.269216] (camera_capture) CommandEnded: {'returncode': 0}
+[4.310840] (-) TimerEvent: {}
+[4.326605] (camera_capture) JobEnded: {'identifier': 'camera_capture', 'rc': 0}
+[4.411068] (-) TimerEvent: {}
+[4.511617] (-) TimerEvent: {}
+[4.612003] (-) TimerEvent: {}
+[4.712407] (-) TimerEvent: {}
+[4.812866] (-) TimerEvent: {}
+[4.913277] (-) TimerEvent: {}
+[5.013762] (-) TimerEvent: {}
+[5.114352] (-) TimerEvent: {}
+[5.214889] (-) TimerEvent: {}
+[5.315364] (-) TimerEvent: {}
+[5.415915] (-) TimerEvent: {}
+[5.516374] (-) TimerEvent: {}
+[5.616692] (-) TimerEvent: {}
+[5.633015] (micro_ros_agent) StderrLine: {'line': b"Switched to a new branch 'ros2'\n"}
+[5.633167] (micro_ros_agent) StdoutLine: {'line': b"Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.\n"}
+[5.682182] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[5.716849] (-) TimerEvent: {}
+[5.817143] (-) TimerEvent: {}
+[5.917535] (-) TimerEvent: {}
+[6.011594] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at c25243c Enable Domain Override on Reference and XML Participant (#351)\n'}
+[6.017584] (-) TimerEvent: {}
+[6.044017] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[6.067437] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[6.076812] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/chris/capstone/hitc_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[6.117714] (-) TimerEvent: {}
+[6.127004] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[6.133603] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.199506] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.208747] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.209008] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.209441] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.217822] (-) TimerEvent: {}
+[6.262997] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.269185] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.317879] (-) TimerEvent: {}
+[6.345505] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.352744] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.353016] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.353410] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.359858] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.418118] (-) TimerEvent: {}
+[6.441537] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.441841] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.518230] (-) TimerEvent: {}
+[6.521824] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.523336] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.538090] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.541502] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[6.542381] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/chris/capstone/hitc_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[6.564606] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[6.614481] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[6.618335] (-) TimerEvent: {}
+[6.712307] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[6.718419] (-) TimerEvent: {}
+[6.737659] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[6.763435] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[6.788706] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[6.798437] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/chris/capstone/hitc_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[6.803572] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[6.818539] (-) TimerEvent: {}
+[6.848463] (micro_ros_agent) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.848599] (micro_ros_agent) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (tinyxml2)\n'}
+[6.848663] (micro_ros_agent) StderrLine: {'line': b'  does not match the name of the calling package (TinyXML2).  This can lead\n'}
+[6.848716] (micro_ros_agent) StderrLine: {'line': b'  to problems in calling code that expects `find_package` result variables\n'}
+[6.848769] (micro_ros_agent) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.848916] (micro_ros_agent) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.848980] (micro_ros_agent) StderrLine: {'line': b'  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)\n'}
+[6.849034] (micro_ros_agent) StderrLine: {'line': b'  /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)\n'}
+[6.849085] (micro_ros_agent) StderrLine: {'line': b'  CMakeLists.txt:153 (find_package)\n'}
+[6.849135] (micro_ros_agent) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.849183] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[6.849232] (micro_ros_agent) StdoutLine: {'line': b'-- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  \n'}
+[6.899106] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.907786] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.918260] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[6.918606] (-) TimerEvent: {}
+[6.919089] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/chris/capstone/hitc_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[6.935979] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'uagent'\x1b[0m\n"}
+[6.978310] (micro_ros_agent) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[6.978615] (micro_ros_agent) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[6.979280] (micro_ros_agent) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[6.979805] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[6.980092] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\x1b[0m\n'}
+[6.980255] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[6.981153] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\x1b[0m\n'}
+[6.981455] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\x1b[0m\n'}
+[6.981612] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\x1b[0m\n'}
+[6.981760] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\x1b[0m\n'}
+[6.986508] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\x1b[0m\n'}
+[6.988609] (micro_ros_agent) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[7.018718] (-) TimerEvent: {}
+[7.119050] (-) TimerEvent: {}
+[7.219337] (-) TimerEvent: {}
+[7.319678] (-) TimerEvent: {}
+[7.420015] (-) TimerEvent: {}
+[7.520369] (-) TimerEvent: {}
+[7.620713] (-) TimerEvent: {}
+[7.721046] (-) TimerEvent: {}
+[7.821385] (-) TimerEvent: {}
+[7.921712] (-) TimerEvent: {}
+[8.022061] (-) TimerEvent: {}
+[8.122387] (-) TimerEvent: {}
+[8.222736] (-) TimerEvent: {}
+[8.323088] (-) TimerEvent: {}
+[8.423432] (-) TimerEvent: {}
+[8.523775] (-) TimerEvent: {}
+[8.627472] (-) TimerEvent: {}
+[8.656144] (micro_ros_agent) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[8.727573] (-) TimerEvent: {}
+[8.736054] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\x1b[0m\n'}
+[8.750640] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[8.823025] (micro_ros_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\x1b[0m\n'}
+[8.827674] (-) TimerEvent: {}
+[8.928063] (-) TimerEvent: {}
+[9.028479] (-) TimerEvent: {}
+[9.128918] (-) TimerEvent: {}
+[9.229354] (-) TimerEvent: {}
+[9.329779] (-) TimerEvent: {}
+[9.430214] (-) TimerEvent: {}
+[9.530665] (-) TimerEvent: {}
+[9.631103] (-) TimerEvent: {}
+[9.648278] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\x1b[0m\n'}
+[9.731209] (-) TimerEvent: {}
+[9.781848] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\x1b[0m\n'}
+[9.831324] (-) TimerEvent: {}
+[9.931657] (-) TimerEvent: {}
+[10.031978] (-) TimerEvent: {}
+[10.132294] (-) TimerEvent: {}
+[10.232627] (-) TimerEvent: {}
+[10.332977] (-) TimerEvent: {}
+[10.382337] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[10.433096] (-) TimerEvent: {}
+[10.533426] (-) TimerEvent: {}
+[10.633764] (-) TimerEvent: {}
+[10.734118] (-) TimerEvent: {}
+[10.834448] (-) TimerEvent: {}
+[10.934813] (-) TimerEvent: {}
+[11.035150] (-) TimerEvent: {}
+[11.135485] (-) TimerEvent: {}
+[11.235826] (-) TimerEvent: {}
+[11.336173] (-) TimerEvent: {}
+[11.436519] (-) TimerEvent: {}
+[11.536957] (-) TimerEvent: {}
+[11.637402] (-) TimerEvent: {}
+[11.737751] (-) TimerEvent: {}
+[11.838090] (-) TimerEvent: {}
+[11.938416] (-) TimerEvent: {}
+[12.038758] (-) TimerEvent: {}
+[12.139085] (-) TimerEvent: {}
+[12.239412] (-) TimerEvent: {}
+[12.340222] (-) TimerEvent: {}
+[12.440808] (-) TimerEvent: {}
+[12.541146] (-) TimerEvent: {}
+[12.625502] (micro_ros_agent) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o\x1b[0m\n'}
+[12.641257] (-) TimerEvent: {}
+[12.741597] (-) TimerEvent: {}
+[12.825407] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\x1b[0m\n'}
+[12.841717] (-) TimerEvent: {}
+[12.942063] (-) TimerEvent: {}
+[12.952414] (micro_ros_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o\x1b[0m\n'}
+[13.043147] (-) TimerEvent: {}
+[13.143676] (-) TimerEvent: {}
+[13.244020] (-) TimerEvent: {}
+[13.269712] (micro_ros_agent) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o\x1b[0m\n'}
+[13.344136] (-) TimerEvent: {}
+[13.371214] (micro_ros_agent) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\x1b[0m\n'}
+[13.444248] (-) TimerEvent: {}
+[13.544579] (-) TimerEvent: {}
+[13.644902] (-) TimerEvent: {}
+[13.745240] (-) TimerEvent: {}
+[13.845574] (-) TimerEvent: {}
+[13.945918] (-) TimerEvent: {}
+[14.046336] (-) TimerEvent: {}
+[14.146764] (-) TimerEvent: {}
+[14.247205] (-) TimerEvent: {}
+[14.257284] (micro_ros_agent) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\x1b[0m\n'}
+[14.347328] (-) TimerEvent: {}
+[14.447685] (-) TimerEvent: {}
+[14.548031] (-) TimerEvent: {}
+[14.648396] (-) TimerEvent: {}
+[14.748751] (-) TimerEvent: {}
+[14.849111] (-) TimerEvent: {}
+[14.949462] (-) TimerEvent: {}
+[15.043076] (micro_ros_agent) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\x1b[0m\n'}
+[15.049570] (-) TimerEvent: {}
+[15.149910] (-) TimerEvent: {}
+[15.214787] (micro_ros_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\x1b[0m\n'}
+[15.250014] (-) TimerEvent: {}
+[15.350476] (-) TimerEvent: {}
+[15.372966] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\x1b[0m\n'}
+[15.450590] (-) TimerEvent: {}
+[15.508346] (micro_ros_agent) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\x1b[0m\n'}
+[15.550699] (-) TimerEvent: {}
+[15.651015] (-) TimerEvent: {}
+[15.751351] (-) TimerEvent: {}
+[15.852017] (-) TimerEvent: {}
+[15.952361] (-) TimerEvent: {}
+[16.052695] (-) TimerEvent: {}
+[16.153064] (-) TimerEvent: {}
+[16.253405] (-) TimerEvent: {}
+[16.344602] (micro_ros_agent) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\x1b[0m\n'}
+[16.353520] (-) TimerEvent: {}
+[16.453880] (-) TimerEvent: {}
+[16.554208] (-) TimerEvent: {}
+[16.654538] (-) TimerEvent: {}
+[16.754875] (-) TimerEvent: {}
+[16.855227] (-) TimerEvent: {}
+[16.955556] (-) TimerEvent: {}
+[17.053679] (micro_ros_agent) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\x1b[0m\n'}
+[17.055660] (-) TimerEvent: {}
+[17.155980] (-) TimerEvent: {}
+[17.256307] (-) TimerEvent: {}
+[17.356633] (-) TimerEvent: {}
+[17.456967] (-) TimerEvent: {}
+[17.557320] (-) TimerEvent: {}
+[17.657652] (-) TimerEvent: {}
+[17.758004] (-) TimerEvent: {}
+[17.858340] (-) TimerEvent: {}
+[17.958670] (-) TimerEvent: {}
+[18.059010] (-) TimerEvent: {}
+[18.159347] (-) TimerEvent: {}
+[18.259682] (-) TimerEvent: {}
+[18.360015] (-) TimerEvent: {}
+[18.460389] (-) TimerEvent: {}
+[18.560747] (-) TimerEvent: {}
+[18.661106] (-) TimerEvent: {}
+[18.761448] (-) TimerEvent: {}
+[18.861786] (-) TimerEvent: {}
+[18.962135] (-) TimerEvent: {}
+[19.062474] (-) TimerEvent: {}
+[19.162845] (-) TimerEvent: {}
+[19.263214] (-) TimerEvent: {}
+[19.363654] (-) TimerEvent: {}
+[19.464032] (-) TimerEvent: {}
+[19.564959] (-) TimerEvent: {}
+[19.619567] (micro_ros_agent) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[19.665292] (-) TimerEvent: {}
+[19.765620] (-) TimerEvent: {}
+[19.866491] (-) TimerEvent: {}
+[19.966819] (-) TimerEvent: {}
+[20.067142] (-) TimerEvent: {}
+[20.167386] (micro_ros_agent) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[20.167621] (-) TimerEvent: {}
+[20.267891] (-) TimerEvent: {}
+[20.368241] (-) TimerEvent: {}
+[20.442647] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[20.468356] (-) TimerEvent: {}
+[20.568739] (-) TimerEvent: {}
+[20.669141] (-) TimerEvent: {}
+[20.681005] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[20.705964] (micro_ros_agent) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[20.769235] (-) TimerEvent: {}
+[20.869589] (-) TimerEvent: {}
+[20.969919] (-) TimerEvent: {}
+[21.070271] (-) TimerEvent: {}
+[21.143582] (micro_ros_agent) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[21.170384] (-) TimerEvent: {}
+[21.270712] (-) TimerEvent: {}
+[21.371059] (-) TimerEvent: {}
+[21.471407] (-) TimerEvent: {}
+[21.571760] (-) TimerEvent: {}
+[21.672097] (-) TimerEvent: {}
+[21.772428] (-) TimerEvent: {}
+[21.872770] (-) TimerEvent: {}
+[21.937945] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[21.972887] (-) TimerEvent: {}
+[22.073222] (-) TimerEvent: {}
+[22.173572] (-) TimerEvent: {}
+[22.252749] (micro_ros_agent) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[22.273682] (-) TimerEvent: {}
+[22.374018] (-) TimerEvent: {}
+[22.474354] (-) TimerEvent: {}
+[22.574697] (-) TimerEvent: {}
+[22.675030] (-) TimerEvent: {}
+[22.767520] (micro_ros_agent) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[22.770504] (micro_ros_agent) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[22.775152] (-) TimerEvent: {}
+[22.875514] (-) TimerEvent: {}
+[22.975856] (-) TimerEvent: {}
+[23.076204] (-) TimerEvent: {}
+[23.176532] (-) TimerEvent: {}
+[23.276863] (-) TimerEvent: {}
+[23.377195] (-) TimerEvent: {}
+[23.477542] (-) TimerEvent: {}
+[23.577901] (-) TimerEvent: {}
+[23.678234] (-) TimerEvent: {}
+[23.778580] (-) TimerEvent: {}
+[23.878916] (-) TimerEvent: {}
+[23.979272] (-) TimerEvent: {}
+[24.079621] (-) TimerEvent: {}
+[24.179964] (-) TimerEvent: {}
+[24.280306] (-) TimerEvent: {}
+[24.380642] (-) TimerEvent: {}
+[24.480991] (-) TimerEvent: {}
+[24.581349] (-) TimerEvent: {}
+[24.681712] (-) TimerEvent: {}
+[24.782054] (-) TimerEvent: {}
+[24.882373] (-) TimerEvent: {}
+[24.982703] (-) TimerEvent: {}
+[25.083044] (-) TimerEvent: {}
+[25.183382] (-) TimerEvent: {}
+[25.283697] (-) TimerEvent: {}
+[25.384015] (-) TimerEvent: {}
+[25.484325] (-) TimerEvent: {}
+[25.584648] (-) TimerEvent: {}
+[25.684924] (-) TimerEvent: {}
+[25.785199] (-) TimerEvent: {}
+[25.885438] (-) TimerEvent: {}
+[25.985727] (-) TimerEvent: {}
+[26.086019] (-) TimerEvent: {}
+[26.186300] (-) TimerEvent: {}
+[26.286582] (-) TimerEvent: {}
+[26.386852] (-) TimerEvent: {}
+[26.487108] (-) TimerEvent: {}
+[26.587405] (-) TimerEvent: {}
+[26.687703] (-) TimerEvent: {}
+[26.788001] (-) TimerEvent: {}
+[26.888297] (-) TimerEvent: {}
+[26.988589] (-) TimerEvent: {}
+[27.088888] (-) TimerEvent: {}
+[27.189181] (-) TimerEvent: {}
+[27.289496] (-) TimerEvent: {}
+[27.389793] (-) TimerEvent: {}
+[27.490096] (-) TimerEvent: {}
+[27.590400] (-) TimerEvent: {}
+[27.690703] (-) TimerEvent: {}
+[27.790995] (-) TimerEvent: {}
+[27.891288] (-) TimerEvent: {}
+[27.991581] (-) TimerEvent: {}
+[28.091874] (-) TimerEvent: {}
+[28.192167] (-) TimerEvent: {}
+[28.292482] (-) TimerEvent: {}
+[28.392743] (-) TimerEvent: {}
+[28.492999] (-) TimerEvent: {}
+[28.593258] (-) TimerEvent: {}
+[28.693511] (-) TimerEvent: {}
+[28.793762] (-) TimerEvent: {}
+[28.894080] (-) TimerEvent: {}
+[28.994338] (-) TimerEvent: {}
+[29.094592] (-) TimerEvent: {}
+[29.194844] (-) TimerEvent: {}
+[29.295098] (-) TimerEvent: {}
+[29.395354] (-) TimerEvent: {}
+[29.495627] (-) TimerEvent: {}
+[29.595880] (-) TimerEvent: {}
+[29.696135] (-) TimerEvent: {}
+[29.796392] (-) TimerEvent: {}
+[29.896646] (-) TimerEvent: {}
+[29.996897] (-) TimerEvent: {}
+[30.097147] (-) TimerEvent: {}
+[30.197402] (-) TimerEvent: {}
+[30.297658] (-) TimerEvent: {}
+[30.397942] (-) TimerEvent: {}
+[30.498208] (-) TimerEvent: {}
+[30.598616] (-) TimerEvent: {}
+[30.631410] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[30.698758] (-) TimerEvent: {}
+[30.799046] (-) TimerEvent: {}
+[30.899336] (-) TimerEvent: {}
+[30.952493] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[30.976366] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'uagent'\x1b[0m\n"}
+[30.998875] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'uagent'\x1b[0m\n"}
+[30.999441] (-) TimerEvent: {}
+[31.028515] (micro_ros_agent) StdoutLine: {'line': b'Built target uagent\n'}
+[31.052967] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'xrceagent'\x1b[0m\n"}
+[31.099620] (-) TimerEvent: {}
+[31.104630] (micro_ros_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target microxrcedds_agent\x1b[0m\n'}
+[31.186908] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[31.199798] (-) TimerEvent: {}
+[31.204341] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[31.211855] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[31.212063] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1\n'}
+[31.214913] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[31.215269] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/chris/capstone/hitc_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1" to ""\n'}
+[31.215485] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[31.215728] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent\n'}
+[31.215845] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[31.215908] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[31.215999] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[31.216156] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[31.216284] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[31.216410] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[31.216531] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[31.216700] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[31.216800] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[31.216862] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[31.216954] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[31.217051] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[31.217112] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[31.217219] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[31.217275] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[31.217385] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[31.217470] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[31.217543] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[31.217608] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[31.217677] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[31.217744] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[31.217812] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[31.217899] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[31.217960] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[31.218028] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[31.218104] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[31.218214] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[31.218314] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[31.218414] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[31.218517] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[31.218618] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[31.218732] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[31.218839] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[31.218951] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[31.219062] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[31.219185] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[31.219300] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[31.219402] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[31.219495] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[31.219598] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[31.219670] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[31.219740] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[31.219795] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[31.219858] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[31.219930] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[31.220035] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[31.220142] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[31.220248] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[31.220325] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[31.220435] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[31.220561] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[31.220630] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[31.220742] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[31.220851] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[31.220947] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[31.221050] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[31.221121] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[31.221193] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[31.221282] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[31.221379] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[31.221453] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[31.221549] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[31.221649] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[31.221768] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[31.221845] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[31.221981] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[31.222087] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[31.222189] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[31.222261] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[31.222361] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[31.222462] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[31.222559] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[31.222637] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[31.222731] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[31.222831] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[31.222930] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[31.223030] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[31.223134] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[31.223231] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[31.223304] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[31.223411] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[31.223508] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[31.223580] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[31.223674] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[31.223747] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[31.223848] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[31.223948] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[31.224019] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[31.224120] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[31.224219] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[31.224319] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[31.224418] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[31.224514] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[31.224587] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[31.224689] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[31.224792] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[31.224893] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[31.224992] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[31.225093] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[31.225202] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[31.225272] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[31.225373] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[31.225472] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[31.225572] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[31.225683] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[31.225765] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[31.225841] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[31.225932] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[31.226078] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[31.226170] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[31.226288] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[31.226424] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[31.226487] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[31.226558] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[31.226626] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[31.226694] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[31.226777] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[31.227246] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[31.227332] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[31.227406] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[31.227477] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[31.227689] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[31.227836] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[31.228001] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[31.228134] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[31.228269] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[31.228343] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[31.245361] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'xrceagent'\x1b[0m\n"}
+[31.275435] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[31.294306] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'micro_ros_agent'\x1b[0m\n"}
+[31.299901] (-) TimerEvent: {}
+[31.360117] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'micro_ros_agent'\x1b[0m\n"}
+[31.382417] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'micro_ros_agent'\x1b[0m\n"}
+[31.400029] (-) TimerEvent: {}
+[31.404864] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'micro_ros_agent'\x1b[0m\n"}
+[31.427408] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'micro_ros_agent'\x1b[0m\n"}
+[31.435927] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/chris/capstone/hitc_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[31.451949] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[31.500159] (-) TimerEvent: {}
+[31.600438] (-) TimerEvent: {}
+[31.633894] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[31.700530] (-) TimerEvent: {}
+[31.800753] (-) TimerEvent: {}
+[31.826582] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[31.832288] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[31.900885] (-) TimerEvent: {}
+[31.912171] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[31.912391] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[31.996306] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[31.997114] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[32.001004] (-) TimerEvent: {}
+[32.005783] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 3.1.5 (/opt/ros/humble/share/rosidl_cmake/cmake)\n'}
+[32.009405] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[32.033994] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)\n'}
+[32.037897] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)\n'}
+[32.086875] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[32.100712] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[32.101095] (-) TimerEvent: {}
+[32.113357] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[32.135841] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[32.162221] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[32.201192] (-) TimerEvent: {}
+[32.223056] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[32.226354] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[32.231054] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[32.236011] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 1.0.0 (/opt/ros/humble/share/micro_ros_msgs/cmake)\n'}
+[32.301274] (-) TimerEvent: {}
+[32.319380] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[32.328542] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[32.329671] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/chris/capstone/hitc_ws/build/micro_ros_agent\n'}
+[32.349541] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'micro_ros_agent'\x1b[0m\n"}
+[32.387989] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\x1b[0m\n'}
+[32.388257] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[32.388394] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[32.388551] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[32.389848] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[32.401404] (-) TimerEvent: {}
+[32.501754] (-) TimerEvent: {}
+[32.602076] (-) TimerEvent: {}
+[32.702354] (-) TimerEvent: {}
+[32.802587] (-) TimerEvent: {}
+[32.902835] (-) TimerEvent: {}
+[33.003068] (-) TimerEvent: {}
+[33.103346] (-) TimerEvent: {}
+[33.203593] (-) TimerEvent: {}
+[33.303852] (-) TimerEvent: {}
+[33.404125] (-) TimerEvent: {}
+[33.504426] (-) TimerEvent: {}
+[33.604727] (-) TimerEvent: {}
+[33.705028] (-) TimerEvent: {}
+[33.805333] (-) TimerEvent: {}
+[33.905631] (-) TimerEvent: {}
+[34.005901] (-) TimerEvent: {}
+[34.106206] (-) TimerEvent: {}
+[34.206496] (-) TimerEvent: {}
+[34.306777] (-) TimerEvent: {}
+[34.407073] (-) TimerEvent: {}
+[34.507360] (-) TimerEvent: {}
+[34.607668] (-) TimerEvent: {}
+[34.707965] (-) TimerEvent: {}
+[34.808273] (-) TimerEvent: {}
+[34.908565] (-) TimerEvent: {}
+[35.008857] (-) TimerEvent: {}
+[35.109141] (-) TimerEvent: {}
+[35.209426] (-) TimerEvent: {}
+[35.309706] (-) TimerEvent: {}
+[35.410003] (-) TimerEvent: {}
+[35.510291] (-) TimerEvent: {}
+[35.610556] (-) TimerEvent: {}
+[35.710815] (-) TimerEvent: {}
+[35.811065] (-) TimerEvent: {}
+[35.900214] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[35.911204] (-) TimerEvent: {}
+[36.011465] (-) TimerEvent: {}
+[36.111743] (-) TimerEvent: {}
+[36.212013] (-) TimerEvent: {}
+[36.254828] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[36.278253] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'micro_ros_agent'\x1b[0m\n"}
+[36.301310] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'micro_ros_agent'\x1b[0m\n"}
+[36.312136] (-) TimerEvent: {}
+[36.330979] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[36.341580] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[36.375153] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[36.375984] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chris/capstone/hitc_ws/build/micro_ros_agent'], 'cwd': '/home/chris/capstone/hitc_ws/build/micro_ros_agent', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'chris'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros2_ws/install/my_robot_interfaces/lib:/home/chris/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1619'), ('SYSTEMD_EXEC_PID', '1786'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4287'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/second_ros2_ws/install:/home/chris/capstone/hitc_ws/install:/home/chris/hitc_ws/install:/home/chris/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('JOURNAL_STREAM', '8:34969'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chris'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chris-ubuntu:@/tmp/.ICE-unix/1755,unix/chris-ubuntu:/tmp/.ICE-unix/1755'), ('INVOCATION_ID', '912aff55d52e4a7b9a335e7b489e0345'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F52HL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99f10b04-d8e7-4f89-8112-5c8f734947f9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chris/capstone/hitc_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/chris/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/chris/second_ros2_ws/build/urdf_tutorial_r2d2:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/chris/capstone/hitc_ws/install/state_publisher_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/test_motors_py/lib/python3.10/site-packages:/home/chris/hitc_ws/install/camera_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chris/ros2_ws/install/my_robot_bringup:/home/chris/ros2_ws/install/turtlesim_project_cpp:/home/chris/ros2_ws/install/robot_arm_final:/home/chris/ros2_ws/install/one_revolute_robot_description:/home/chris/ros2_ws/install/one_leg_robot_description:/home/chris/ros2_ws/install/one_arm_robot_description:/home/chris/ros2_ws/install/my_cpp_pkg:/home/chris/ros2_ws/install/my_robot_interfaces:/home/chris/ros2_ws/install/my_robot_description:/home/chris/ros2_ws/install/micro_ros_agent:/home/chris/capstone/hitc_ws/install/hitc_robot_description:/home/chris/ros2_ws/install/turtlesim_catch_them_all:/home/chris/ros2_ws/install/my_py_pkg:/home/chris/second_ros2_ws/install/urdf_tutorial_r2d2:/home/chris/capstone/hitc_ws/install/state_publisher_py:/home/chris/hitc_ws/install/test_motors_py:/home/chris/hitc_ws/install/camera_py:/opt/ros/humble')]), 'shell': False}
+[36.382785] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.382992] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[36.383175] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[36.383326] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[36.383596] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[36.383775] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[36.383910] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[36.384021] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[36.384126] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[36.384241] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[36.384336] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[36.384433] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[36.384549] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[36.384669] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[36.384783] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[36.384898] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[36.385017] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[36.385204] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[36.386668] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/chris/capstone/hitc_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""\n'}
+[36.386822] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[36.394868] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/chris/capstone/hitc_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[36.396748] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[36.412439] (-) TimerEvent: {}
+[36.512732] (-) TimerEvent: {}
+[36.606754] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[36.607143] (-) EventReactorShutdown: {}

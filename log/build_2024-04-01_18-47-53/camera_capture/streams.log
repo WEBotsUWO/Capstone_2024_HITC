@@ -1,0 +1,41 @@
+[2.198s] Invoking command in '/home/chris/capstone/hitc_ws/src/camera_capture': PYTHONPATH=/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_capture build --build-base /home/chris/capstone/hitc_ws/build/camera_capture/build install --record /home/chris/capstone/hitc_ws/build/camera_capture/install.log --single-version-externally-managed install_data
+[2.478s] running egg_info
+[2.478s] writing ../../build/camera_capture/camera_capture.egg-info/PKG-INFO
+[2.479s] writing dependency_links to ../../build/camera_capture/camera_capture.egg-info/dependency_links.txt
+[2.479s] writing entry points to ../../build/camera_capture/camera_capture.egg-info/entry_points.txt
+[2.479s] writing requirements to ../../build/camera_capture/camera_capture.egg-info/requires.txt
+[2.479s] writing top-level names to ../../build/camera_capture/camera_capture.egg-info/top_level.txt
+[2.481s] reading manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'
+[2.488s] writing manifest file '../../build/camera_capture/camera_capture.egg-info/SOURCES.txt'
+[2.489s] running build
+[2.489s] running build_py
+[2.489s] copying camera_capture/image_convert.py -> /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture
+[2.489s] copying camera_capture/RRT.py -> /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture
+[2.489s] copying camera_capture/obstacleExtractor.py -> /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture
+[2.489s] copying camera_capture/solveMaze.py -> /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture
+[2.490s] running install
+[2.490s] running install_lib
+[2.490s] copying /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture/image_convert.py -> /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture
+[2.491s] copying /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture/RRT.py -> /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture
+[2.491s] copying /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture/obstacleExtractor.py -> /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture
+[2.491s] copying /home/chris/capstone/hitc_ws/build/camera_capture/build/lib/camera_capture/solveMaze.py -> /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture
+[2.491s] byte-compiling /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/image_convert.py to image_convert.cpython-310.pyc
+[2.492s] byte-compiling /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/RRT.py to RRT.cpython-310.pyc
+[2.493s] byte-compiling /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/obstacleExtractor.py to obstacleExtractor.cpython-310.pyc
+[2.493s] byte-compiling /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/solveMaze.py to solveMaze.cpython-310.pyc
+[2.494s] running install_data
+[2.494s]   File "/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/solveMaze.py", line 4
+[2.494s]     from camera_capture import RRT.py
+[2.494s]                                   ^
+[2.494s] SyntaxError: invalid syntax
+[2.494s] 
+[2.494s] running install_egg_info
+[2.495s] removing '/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info' (and everything under it)
+[2.496s] Copying ../../build/camera_capture/camera_capture.egg-info to /home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture-0.0.0-py3.10.egg-info
+[2.497s] running install_scripts
+[2.521s] Installing camera_capture script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[2.521s] Installing image_proccessing script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[2.522s] Installing motor_controller script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[2.522s] Installing safety_system script to /home/chris/capstone/hitc_ws/install/camera_capture/lib/camera_capture
+[2.522s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/camera_capture/install.log'
+[2.559s] Invoked command in '/home/chris/capstone/hitc_ws/src/camera_capture' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/camera_capture/prefix_override:/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_capture build --build-base /home/chris/capstone/hitc_ws/build/camera_capture/build install --record /home/chris/capstone/hitc_ws/build/camera_capture/install.log --single-version-externally-managed install_data

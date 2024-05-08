@@ -1,0 +1,20 @@
+[1.973s] Invoking command in '/home/chris/capstone/hitc_ws/src/path_planner': PYTHONPATH=/home/chris/capstone/hitc_ws/build/path_planner/prefix_override:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_planner build --build-base /home/chris/capstone/hitc_ws/build/path_planner/build install --record /home/chris/capstone/hitc_ws/build/path_planner/install.log --single-version-externally-managed install_data
+[2.292s] running egg_info
+[2.293s] writing ../../build/path_planner/path_planner.egg-info/PKG-INFO
+[2.294s] writing dependency_links to ../../build/path_planner/path_planner.egg-info/dependency_links.txt
+[2.294s] writing entry points to ../../build/path_planner/path_planner.egg-info/entry_points.txt
+[2.294s] writing requirements to ../../build/path_planner/path_planner.egg-info/requires.txt
+[2.294s] writing top-level names to ../../build/path_planner/path_planner.egg-info/top_level.txt
+[2.296s] reading manifest file '../../build/path_planner/path_planner.egg-info/SOURCES.txt'
+[2.297s] writing manifest file '../../build/path_planner/path_planner.egg-info/SOURCES.txt'
+[2.297s] running build
+[2.298s] running build_py
+[2.298s] running install
+[2.299s] running install_lib
+[2.301s] running install_data
+[2.301s] running install_egg_info
+[2.303s] removing '/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner-0.0.0-py3.10.egg-info' (and everything under it)
+[2.303s] Copying ../../build/path_planner/path_planner.egg-info to /home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages/path_planner-0.0.0-py3.10.egg-info
+[2.304s] running install_scripts
+[2.326s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/path_planner/install.log'
+[2.352s] Invoked command in '/home/chris/capstone/hitc_ws/src/path_planner' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/path_planner/prefix_override:/home/chris/capstone/hitc_ws/install/path_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_planner build --build-base /home/chris/capstone/hitc_ws/build/path_planner/build install --record /home/chris/capstone/hitc_ws/build/path_planner/install.log --single-version-externally-managed install_data

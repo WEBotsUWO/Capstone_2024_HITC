@@ -1,0 +1,5 @@
+  File "/home/chris/capstone/hitc_ws/install/camera_capture/lib/python3.10/site-packages/camera_capture/solveMaze.py", line 4
+    from camera_capture import RRT.py
+                                  ^
+SyntaxError: invalid syntax
+

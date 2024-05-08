@@ -1,0 +1,3 @@
+[console_scripts]
+trajectory_generator = trajectory_generator.trajectory_generator:main
+

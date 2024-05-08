@@ -1,0 +1,4 @@
+source;share/hitc_robot_description/local_setup.bash
+source;share/hitc_robot_description/local_setup.dsv
+source;share/hitc_robot_description/local_setup.sh
+source;share/hitc_robot_description/local_setup.zsh

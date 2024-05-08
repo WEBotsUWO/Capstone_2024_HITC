@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/trajectory_generator/trajectory_generator.egg-info/PKG-INFO
+writing dependency_links to ../../build/trajectory_generator/trajectory_generator.egg-info/dependency_links.txt
+writing entry points to ../../build/trajectory_generator/trajectory_generator.egg-info/entry_points.txt
+writing requirements to ../../build/trajectory_generator/trajectory_generator.egg-info/requires.txt
+writing top-level names to ../../build/trajectory_generator/trajectory_generator.egg-info/top_level.txt
+reading manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'
+writing manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'
+running build
+running build_py
+copying trajectory_generator/student_trajectory_algorithm.py -> /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator
+running install
+running install_lib
+copying /home/chris/capstone/hitc_ws/build/trajectory_generator/build/lib/trajectory_generator/student_trajectory_algorithm.py -> /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator
+byte-compiling /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator/student_trajectory_algorithm.py to student_trajectory_algorithm.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/trajectory_generator/trajectory_generator.egg-info to /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing trajectory_generator script to /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/trajectory_generator
+writing list of installed files to '/home/chris/capstone/hitc_ws/build/trajectory_generator/install.log'

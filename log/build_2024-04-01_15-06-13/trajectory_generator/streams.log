@@ -1,0 +1,21 @@
+[1.963s] Invoking command in '/home/chris/capstone/hitc_ws/src/trajectory_generator': PYTHONPATH=/home/chris/capstone/hitc_ws/build/trajectory_generator/prefix_override:/home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/trajectory_generator build --build-base /home/chris/capstone/hitc_ws/build/trajectory_generator/build install --record /home/chris/capstone/hitc_ws/build/trajectory_generator/install.log --single-version-externally-managed install_data
+[2.244s] running egg_info
+[2.244s] writing ../../build/trajectory_generator/trajectory_generator.egg-info/PKG-INFO
+[2.244s] writing dependency_links to ../../build/trajectory_generator/trajectory_generator.egg-info/dependency_links.txt
+[2.244s] writing entry points to ../../build/trajectory_generator/trajectory_generator.egg-info/entry_points.txt
+[2.245s] writing requirements to ../../build/trajectory_generator/trajectory_generator.egg-info/requires.txt
+[2.245s] writing top-level names to ../../build/trajectory_generator/trajectory_generator.egg-info/top_level.txt
+[2.247s] reading manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'
+[2.248s] writing manifest file '../../build/trajectory_generator/trajectory_generator.egg-info/SOURCES.txt'
+[2.248s] running build
+[2.248s] running build_py
+[2.248s] running install
+[2.248s] running install_lib
+[2.250s] running install_data
+[2.250s] running install_egg_info
+[2.252s] removing '/home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator-0.0.0-py3.10.egg-info' (and everything under it)
+[2.252s] Copying ../../build/trajectory_generator/trajectory_generator.egg-info to /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages/trajectory_generator-0.0.0-py3.10.egg-info
+[2.253s] running install_scripts
+[2.273s] Installing trajectory_generator script to /home/chris/capstone/hitc_ws/install/trajectory_generator/lib/trajectory_generator
+[2.274s] writing list of installed files to '/home/chris/capstone/hitc_ws/build/trajectory_generator/install.log'
+[2.310s] Invoked command in '/home/chris/capstone/hitc_ws/src/trajectory_generator' returned '0': PYTHONPATH=/home/chris/capstone/hitc_ws/build/trajectory_generator/prefix_override:/home/chris/capstone/hitc_ws/install/trajectory_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/trajectory_generator build --build-base /home/chris/capstone/hitc_ws/build/trajectory_generator/build install --record /home/chris/capstone/hitc_ws/build/trajectory_generator/install.log --single-version-externally-managed install_data
